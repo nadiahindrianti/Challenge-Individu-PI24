@@ -1,0 +1,157 @@
+.wrapper-mobile {
+    background-color: var(--white);
+}
+
+.login-content {
+    background-color: white;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+
+.featured-image img {
+    width: 120px;
+    margin: 20px 0 0 0;
+}
+
+.featured-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+p {
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 13px;
+    text-align: center;
+}
+
+small {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 11px;
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 20px;
+    margin: 25px 0 10px;
+    font-weight: 700;
+}
+
+.header-text .desc {
+    color: var(--secondary-color);
+}
+
+.form-control {
+    background-color: var(--light-primary);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-size: 14px;
+    padding-left: 10px;
+    color: var(--light-grey);
+}
+
+.img-login-container {
+    background-color: white;
+}
+
+.img-fluid {
+    width: 480px;
+}
+
+#error-message {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#error-message p {
+    margin: 0;
+}
+
+.input-group {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 1rem 0; 
+  }
+  
+  .input-group .form-control {
+    width: 300px; 
+    margin-right: 10px; 
+    border-radius: 10px; 
+  }
+  
+  .lg-btn-primary {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px; 
+    cursor: pointer;
+  }
+
+  .lg-btn-primary:hover {
+    background-color: darken(var(--primary-color), 10%);
+  }
+  
+ 
+  .input-group .lg-btn-primary {
+    border: none;
+  }
+  
+  .input-group.mb-3 {
+    flex-direction: row; 
+  }
+  
+
+
+.lg-btn-primary {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lg-btn-primary:hover {
+    background-color: darken(var(--primary-color), 10%);
+}
+
+/* ------------------------Specific Register------------------------ */
+
+label {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.inline-form {
+    display: flex;
+}
+
+.spaceinput {
+}
+
+.register-content {
+    background-color: white;
+    padding-top: 5rem;
+}

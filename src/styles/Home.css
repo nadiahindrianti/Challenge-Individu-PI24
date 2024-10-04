@@ -1,0 +1,161 @@
+/* Home page specific styles */
+
+.content-home {
+    background-color: #f7f7f7;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cases-section {
+    padding: 20px;
+}
+
+.cases-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cases-heading h4 {
+    margin: 0;
+}
+
+.cases-heading a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.cases-info p {
+    font-size: 14px;
+    color: #555;
+}
+
+.cases-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cases-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px 5px;
+    flex: 1;
+    min-width: 220px;
+}
+
+.cases-user .username {
+    font-weight: bold;
+}
+
+.btn-support {
+    background-color: #ba324f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.emergency-section {
+    padding: 20px;
+}
+
+.emergency-heading h4 {
+    margin-bottom: 15px;
+}
+
+.emergency-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.emergency-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 5px;
+    flex: 1;
+    min-width: 220px;
+}
+
+.info-telp {
+    display: flex;
+    align-items: center;
+}
+
+.info-telp h5 {
+    margin-left: 10px;
+    color: #ba324f;
+}
+
+.info-title p {
+    margin-top: 10px;
+    color: #555;
+}
+
+.header {
+    text-align: center;
+    padding: 16px;
+}
+
+.header .logo {
+    width: 80px;
+}
+
+.kasus-terbaru,
+.info-pusat-bantuan,
+.tips-panduan {
+    margin-top: 24px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.kasus-cards {
+    display: flex;
+    gap: 16px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.dukungan-btn {
+    background-color: #f8d7da;
+    color: #d9534f;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.info-pusat-bantuan .bantuan-cards {
+    display: flex;
+    gap: 16px;
+}
+
+.bantuan-card {
+    background-color: #ffe6e6;
+    padding: 16px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.tips-panduan .tips-cards {
+    display: flex;
+    gap: 16px;
+}
+
+.tips-card img {
+    width: 100px;
+    height: auto;
+}

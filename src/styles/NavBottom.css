@@ -1,0 +1,28 @@
+.wrapper-mobile {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navigation-container-bottom {}
+
+.navigation-bottom {}
+
+.popup-container {}
+
+.popup-menu {}
+
+.rectangle {}
+
+.popup-detail {}
+
+.popup-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.popup-content p {
+    font-size: 16px;
+    color: #BA324F;
+}
