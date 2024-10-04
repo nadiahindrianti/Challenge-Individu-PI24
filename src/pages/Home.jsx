@@ -34,7 +34,7 @@ function Home() {
                 <Link to="/selengkapnya" className="link-lengkapnya">Selengkapnya</Link>
             </section>
 
-            {/* Info Pusat Bantuan */}
+
             <section className="info-pusat-bantuan">
                 <h3>Info Pusat Bantuan</h3>
                 <div className="bantuan-cards">
@@ -49,7 +49,6 @@ function Home() {
                 </div>
             </section>
 
-            {/* Tips dan Panduan */}
             <section className="tips-panduan">
                 <h3>Tips dan Panduan</h3>
                 <div className="tips-cards">

@@ -1,6 +1,3 @@
-.wrapper-mobile {
-    background-color: var(--white);
-}
 
 .login-content {
     background-color: white;
@@ -148,8 +145,6 @@ label {
     display: flex;
 }
 
-.spaceinput {
-}
 
 .register-content {
     background-color: white;
